@@ -1,0 +1,17 @@
+{
+  "name": "AgendaTarefas",
+  "authors": [
+    "Sávio Muniz <savio.muniz@ccc.ufcg.edu.br>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
