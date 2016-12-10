@@ -1,15 +1,4 @@
-var app = angular.module("agendaApp", ['ui.bootstrap','ngRoute']);
-
-app.config(['$routeProvider'],
-  function($routeProvider) {
-    $routeProvider
-    .when("/", {
-        templateUrl : "index.html"
-    })
-    .when("/progress", {
-        templateUrl : "templates/progress.html"
-    })
-});
+var app = angular.module("agendaApp", ['ui.bootstrap']);
 
 
 app.controller("agendaController", function($scope) {
